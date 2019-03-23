@@ -1,0 +1,3 @@
+The following variables are needed for the server to run. Set them to any values you wish to
+MONGO_URI=mongo://localhost27017/scoutingAppDB
+PASSWORD=1389secret
