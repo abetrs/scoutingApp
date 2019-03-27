@@ -13,20 +13,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>This is the Team 1389 Scouting Website app thing.</p>
-          <a
-            className="App-link"
-            href="https://www.team1389.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Team 1389 Website
-          </a>
-        </header>
-        <Form onSubmit={fields => this.onSubmit(fields)}/>
+        <head>
+          <title>1389 Scouting App</title>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+          />
+        </head>
+        <Form onSubmit={fields => this.onSubmit(fields)} />
       </div>
-    )
+    );
   }
 }
 

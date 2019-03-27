@@ -16,6 +16,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const authRoutes = require("./auth/auth");
+const apiRoutes = require('./api/Forms');
 
 // Middleware
 app.use(express.json());
@@ -38,7 +39,7 @@ app.use(cors());
 // });
 
 app.use("/auth", authRoutes);
-
+app.use('/api', apiRoutes);
 
 app.listen(3000, () => {
     console.log("Listening on localhost:3000");

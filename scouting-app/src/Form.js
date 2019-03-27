@@ -63,7 +63,6 @@ export default class Form extends Component {
     render() {
         return (
                 <form onSubmit={this.handleSubmit}>
-                    //Team Number
                     Team# of robot observing:
                     <input
                         type='number'
@@ -73,7 +72,6 @@ export default class Form extends Component {
                     />
                     <br />
                     <br />
-                    //Match Type
                     Match type:
                     <br />
                     Qualifications: <input
@@ -92,11 +90,9 @@ export default class Form extends Component {
                         onChange={this.handleChange}
                     />
                     <br />
-                    //Sandstorm(Auto)
                     <br />Sandstorm
                     <br />
                     <br />
-                    //Descending
                     Descending:
                     <br />
                     Level 1: drove down ramp <input
@@ -123,7 +119,6 @@ export default class Form extends Component {
                         onChange={this.handleChange}
                     />
                     <br />
-                    //Game Pieces-----------------------
                     <br />Game Pieces
                     <br />
                     <br />
@@ -222,7 +217,6 @@ export default class Form extends Component {
                         onChange={this.handleChange}
                     />
                     <br />
-                    //Tele-Op---------------------------
                     <br />Tele-Operated Period:
                     <br />
                     How many hatches on cargo ship?
